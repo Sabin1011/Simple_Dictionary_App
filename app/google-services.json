@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1027228187978",
+    "project_id": "android-dictionary-retrofit",
+    "storage_bucket": "android-dictionary-retrofit.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027228187978:android:5f652ded9a35a3432315b3",
+        "android_client_info": {
+          "package_name": "np.com.bimalkafle.easydictionary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCff1utRj27X1iyX9efVP47z011czPXwVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

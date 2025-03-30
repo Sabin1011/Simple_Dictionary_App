@@ -1,1 +1,41 @@
 /build
+# Gradle files
+.gradle/
+build/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Generated files
+/captures/
+/output.json
+/.externalNativeBuild/
+.cxx/
+
+# Dependency directories
+/.gradle/
+/app/build/
+/app/intermediates/
+/app/generated/
+
+# Keystore (Security - Do not commit)
+*.keystore
+*.jks
+
+# Firebase/Google Services
+/google-services.json
+/google-services.xml
+/service-account.json
+
+# Miscellaneous
+*.log
+*.swp
+*.swo
+*.swn
+
+# Emulator and caches
+/.android/
+/*.apk
+/.cache/
