@@ -7,12 +7,20 @@
     android:gravity="center"
     android:background="@drawable/bg">  <!-- Set Background Here -->
 
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/aidic"
+        android:layout_marginBottom="16dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
-        android:background="#1AFFFFFF"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="50dp"
+        android:background="@drawable/rounded_bg"
         android:elevation="4dp">
 
         <EditText

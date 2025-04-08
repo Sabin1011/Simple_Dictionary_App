@@ -7,12 +7,25 @@
     android:gravity="center"
     android:background="@drawable/bg">
 
+    <!-- Icon at the top -->
+    
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="122dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_corner"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aidic" />
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp"
-        android:background="#1AFFFFFF"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="50dp"
+        android:background="@drawable/rounded_bg"
         android:elevation="4dp">
 
         <EditText
